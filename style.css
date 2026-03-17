@@ -1,0 +1,76 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #b0b0b0; /* cinza claro */
+  padding: 15px 20px;
+}
+
+/* CONTAINER */
+.nav-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* TÍTULO CENTRAL */
+.titulo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* TELEFONE DIREITA */
+.telefone {
+  margin-left: auto;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #b0b0b0; /* mesma cor */
+  height: 50px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: 60px auto;
+}
+
+/* GRID 2 COLUNAS */
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr; /* imagem maior */
+  gap: 30px;
+  align-items: center;
+}
+
+/* IMAGEM GRANDE */
+.img-grande {
+  width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* CAIXA DE TEXTO */
+.box-texto {
+  background-color: #b0b0b0; /* mesma cor da navbar */
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 28px; /* LETRA BEM GRANDE */
+  color: black;
+  line-height: 1.5;
+}
+.h2 {
+     font-size: 28px;
+}
